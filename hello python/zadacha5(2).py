@@ -5,7 +5,7 @@
 N = int(input('ВВедите N: '))
 F = 1
 for i in range( 1, N + 1 ):
-    F *= i
+    F *= i+1
     print(F)
 
     
